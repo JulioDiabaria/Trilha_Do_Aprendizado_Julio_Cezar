@@ -1,0 +1,79 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     /*utilizando margem como shorthand (todos os lados)*/
+     margin-top:50px ;
+     margin-right:100px;
+     margin-bottom:80px ;
+     margin-left:90px;
+     border-style:dotted;
+     border-width: 10px;
+     border-color: hotpink;
+     padding:20px;
+}
+
+
+h1{
+    background-color: rgb(12, 132, 141);
+    color: aliceblue;
+}
+span{
+    background-color:brown;
+    color: greenyellow;
+}
+p{
+    background-color:darkolivegreen;
+    color:darksalmon;
+    display: inline;/*altera a propriedade de block-level para inline*/
+}
+div{
+    background-color: darkmagenta;
+    color:orangered;
+    border:solid;
+    margin:10px;
+    padding:10px; ;
+}
+.box1{
+    background-color: aqua;
+    color:darkgreen;
+    width:400px;
+    height:50px;
+    position: static;
+    top:500px;
+    left:500px;
+}   
+.box2{
+    background-color:darksalmon;
+    color:indigo;
+    width:400px;
+    height:50px;
+    position:relative;
+    top: 100px;
+    left:450px;
+}   
+.box3{
+    background-color:darkgoldenrod;
+    color:blue;
+    width:400px;
+    height:50px;
+    position:absolute;
+    top:0;
+    right:0;
+}   
+.box4{
+    background-color:black;
+    color:white;
+    width:400px;
+    height:50px;
+    position: fixed;
+    top:0;
+    left:0;
+}  
+.box5{
+    background-color:dodgerblue;
+    color:brown;
+    width:400px;
+    height:50px;
+    position: sticky;
+    bottom:200px;
+    left:150px;
+}
